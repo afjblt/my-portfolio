@@ -15,4 +15,14 @@ export const ContainerLanguage = styled.div`
             width: 35px;
         }
     }
+
+    @media (max-width: 540px) {
+        gap: 1rem;
+
+        button {
+            img {
+                width: 30px;
+            }
+        }
+    }
 `

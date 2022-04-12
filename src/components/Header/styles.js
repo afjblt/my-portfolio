@@ -1,24 +1,29 @@
 import styled from 'styled-components'
 
-export const HeaderContainer = styled.div `
+export const HeaderContainer = styled.header `
     background: black;
     width: 100%;
-    height: 80px;
+    height: 8rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 5rem;
 
     h1 {
         font-size: 2.8rem;
         font-weight: 600;
         color: #ffbb33;
-        margin-left: 16.3rem;
+    }
+
+    nav {
+        display: flex;
+        gap: 12rem;
     }
 
     ul {
         display: flex;
         gap: 5.2rem;
-        margin-right: 4.6rem;
+        margin-left: 4.6rem;
         font-weight: 600;
         font-size: 1.8rem;
         li {
@@ -35,6 +40,127 @@ export const HeaderContainer = styled.div `
             }      
             
         }        
+    }
+
+
+
+    /*======== MENU MOBILE =========*/
+
+    .hamburger {
+        display: none;
+        cursor: pointer;
+        position: absolute;
+        width: 4rem;
+        height: 2rem;
+        margin-top: .5rem;
+        right: 1.5rem;
+
+    }
+
+    .hamburger::after {
+        content: '';
+        position: absolute;
+        width: 3rem;
+        height: .4rem;
+        background-color: white;
+
+        border-radius: 2rem;
+
+        transition: .8s ease;
+    }
+
+    .hamburger::before {
+        content: '';
+        position: absolute;
+        width: 2rem;
+        height: .4rem;
+        background-color: white;
+        top: 1.5rem;
+        right: 1em;
+
+        border-radius: 2rem;
+
+        transition: .8s ease;
+    }
+
+    .hamburger.active::after {
+        transform: rotate(225deg);
+        top: .8rem;
+    }
+
+    .hamburger.active::before {
+        transform: rotate(-225deg);
+        width: 3rem;
+        top: .8rem;
+    }
+
+    /*========= MEDIA QUERY ========*/
+
+    @media (max-width: 999px) {
+        nav {
+            gap: 3rem;
+        }
+    }
+
+    @media (max-width: 952px) {
+        gap: 0;
+        ul {
+            gap: 3rem;
+        }
+    }
+
+    @media (max-width: 837px) {
+        h1 {
+            font-size: 2.2rem;
+        }
+
+        ul {
+            font-size: 1.4rem;
+        }
+    }
+
+    @media (max-width: 700px) {
+        ul {
+            position: absolute;
+            top: 10vh;
+            right: 0;
+            width: 40vw;
+            height: 92vh;
+            background: rgba(0, 0, 0, 0.5);
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0;
+            transform: translateX(100%);
+            transition: transform .5s ease-in;
+
+            li:first-child {
+                margin-top: 2.5rem;
+            }
+
+            li {
+                opacity: 0;
+            }
+        }
+
+        ul.active {
+            transform: translateX(0);
+
+            li {
+                opacity: 1;
+            }
+        }
+
+        .hamburger {
+            display: block;
+        }
+
+        
+    }
+
+    @media (max-width: 540px) {
+        nav {
+            margin-right: 5rem;
+        }
     }
 
 `
