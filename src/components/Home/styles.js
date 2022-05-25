@@ -8,6 +8,7 @@ export const HomeContainer = styled.section`
 
     .left {
         margin-top: -3rem;
+
         .hi {
             font-size: 3rem;
             margin-bottom: 1rem;
@@ -72,10 +73,105 @@ export const HomeContainer = styled.section`
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 0rem 10rem;
+
         img {
             margin-left: 1rem;
             width: 33rem;
         }
+    }
+
+    @media (max-width: 930px) {
+        .left {
+            margin-left: 2rem;
+
+            .hi {
+                font-size: 2rem;
+            }
+
+            span {
+                font-size: 3.5rem;
+            }
+
+            .info {
+                font-size: 1.5rem;
+            }
+        }
+
+        .right {
+            margin-right: 2rem;
+            width: 33rem;
+
+            img {
+                width: 30rem;
+            }
+        }
+    }
+
+    @media (max-width: 770px) {
+        .left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 3rem;
+
+            span {
+                font-size: 2.5rem;
+            }
+
+            .info {
+                font-size: 1.3rem;
+                width: 30rem;
+            }
+
+            .buttons {
+                gap: 2rem;
+            }
+        }
+
+        .right {
+            margin-right: 4rem;
+            width: 27rem;
+            
+            img {
+                width: 25rem;
+            }
+        }
+    }
+
+    @media (max-width: 700px) {
+        flex-direction: column;
+        .left {
+            margin: 4rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            span {
+                font-size: 2.5rem;
+            }
+
+            .info {
+                font-size: 1.3rem;
+                width: 30rem;
+            }
+
+            .buttons {
+                gap: 2rem;
+            }
+        }
+
+        .right {
+            margin: 0;
+            width: 27rem;
+            
+            img {
+                width: 25rem;
+            }
+        }
+    }
+
+    .bar {
+        height: 5rem;
     }
 
 `
