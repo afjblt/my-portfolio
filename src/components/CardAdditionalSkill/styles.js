@@ -20,12 +20,20 @@ export const CardAdditionalSkillContainer = styled.div`
     span {
         font-size: 1.8rem;
         font-weight: 600;
-        white-space: nowrap;
+        text-align: center;
     }
 
     p {
         font-size: 1.4rem;
         text-align: center;
+    }
+
+    @media (max-width: 375px) {
+        padding: 2rem;
+
+        span {
+            font-size: 1.6rem;
+        }
     }
     
 `
