@@ -11,7 +11,7 @@ import CardAdditionalSkill from "../CardAdditionalSkill";
 
 function AboutMe() {
     return ( 
-        <AboutMeContainer>
+        <AboutMeContainer id="about">
             <h2>Sobre mim:</h2>
             <p>Olá, meu nome é Fernando Filipe da Silva Costa, tenho 20 anos, estou cursando o 7° Período de Ciência da Computação na UNIP - Universidade Paulista. Programo há 2 anos, e nesse período pude adquirir conhecimentos em HTML5, CSS, JS, React, entre outras ferramentas, sempre tentando estar cada vez mais atualizado com as tecnologias em alta do mercado. Atualmente estou buscando, aprofundar meus conhecimentos em React, e também estou a procura de uma vaga como desenvolvedor Jr.</p>
 

@@ -48,7 +48,7 @@ export const AboutMeContainer = styled.section`
 
     .additionalSkills {
         padding: 0 12rem;
-        margin: 1rem 0 14rem;
+        margin: 1rem 0 10rem;
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
