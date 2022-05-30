@@ -11,8 +11,8 @@ function CardCarousel({ src, title, description, vercel, github }) {
                 <p>{description}</p>
 
                 <div className="buttons">
-                    <a href={vercel}>View Live</a>
-                    <a href={github}>Github Repo</a>
+                    <a href={vercel} target='_blank'>View Live</a>
+                    <a href={github} target='_blank'>Github Repo</a>
                 </div>
             </div>
         </CardCarouselContainer>

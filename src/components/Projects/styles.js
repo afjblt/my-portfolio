@@ -52,4 +52,24 @@ export const ProjectsContainer = styled.section`
             }
         }
     }
+
+    @media (max-width: 1100px) {
+        padding: 0 5rem;
+    }
+
+    @media (max-width: 770px) {
+        text-align: center;
+
+        .carousel {
+            text-align: left;
+            overflow-x: auto;
+        }
+
+        .navigation {
+            button {
+                display: none;
+            }
+        }
+    }
+
 `

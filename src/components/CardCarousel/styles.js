@@ -25,7 +25,7 @@ export const CardCarouselContainer = styled.div`
         }
 
         p {
-            margin-top: .5rem;
+            margin: .5rem 0 1rem;
             font-size: 1.7rem;
             font-weight: 500;
             text-align: justify;
@@ -66,6 +66,27 @@ export const CardCarouselContainer = styled.div`
                 }
             }
         }
+    }
+
+    @media (max-width: 445px) {
+        width: 23rem;
+
+        .info {
+            span {
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+            }
+
+            .buttons {
+                a {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
     }
 
    
