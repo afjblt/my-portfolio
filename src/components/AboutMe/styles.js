@@ -107,6 +107,12 @@ export const AboutMeContainer = styled.section`
         }
     }
 
+    @media (max-width: 700px) {
+        h2 {
+            padding-top: 10rem;
+        }
+    }
+
     @media (max-width: 500px) {
         .xp {
             flex-direction: column;

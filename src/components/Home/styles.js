@@ -141,7 +141,7 @@ export const HomeContainer = styled.section`
     @media (max-width: 700px) {
         flex-direction: column;
         .left {
-            margin: 4rem;
+            margin: 14rem 4rem 4rem;
             display: flex;
             flex-direction: column;
             align-items: center;

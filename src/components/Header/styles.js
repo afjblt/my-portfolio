@@ -126,7 +126,7 @@ export const HeaderContainer = styled.header `
             left: -100%;
             width: 40vw;
             height: 92vh;
-            background: rgba(0, 0, 0, 0.5);
+            background: rgba(0, 0, 0, 0.7);
             flex-direction: column;
             align-items: center;
             margin-left: 0;
