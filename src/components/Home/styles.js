@@ -35,7 +35,7 @@ export const HomeContainer = styled.section`
             gap: 4rem;
 
             a {
-                width: 15rem;
+                width: 16rem;
                 height: 4.8rem;
 
                 border-radius: .8rem;  

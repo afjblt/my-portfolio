@@ -1,4 +1,6 @@
 import { AboutMeContainer } from "./styles";
+import { useTranslation } from 'react-i18next';
+
 
 import { SiHtml5, SiCss3, SiJavascript, SiReact, SiStyledcomponents, SiMaterialui } from 'react-icons/si'
 import { CgFigma } from 'react-icons/cg'
@@ -10,14 +12,16 @@ import CardAdditionalSkill from "../CardAdditionalSkill";
 
 
 function AboutMe() {
+    const { t } = useTranslation()
+
     return ( 
         <AboutMeContainer id="about">
-            <h2>Sobre mim:</h2>
-            <p>Olá, meu nome é Fernando Filipe da Silva Costa, tenho 20 anos, estou cursando o 7° Período de Ciência da Computação na UNIP - Universidade Paulista. Programo há 2 anos, e nesse período pude adquirir conhecimentos em HTML5, CSS, JS, React, entre outras ferramentas, sempre tentando estar cada vez mais atualizado com as tecnologias em alta do mercado. Atualmente estou buscando, aprofundar meus conhecimentos em React, e também estou a procura de uma vaga como desenvolvedor Jr.</p>
+            <h2>{t('about')}:</h2>
+            <p>{t('apresentation')}</p>
 
             <div className="xp">
                 <span>6</span>
-                <p>Meses de experiência profissional. Utilizando no dia a dia como principal ferramneta o, React. Ainda nesta experiência pude adquirir bons conhecimentos em Figma. Criando do zero um protótipo que foi solicitado ao time no decorrer do cargo</p>
+                <p>{t('xp')}</p>
             </div>
 
             <div className="skills">
@@ -27,7 +31,7 @@ function AboutMe() {
                 <CardSkill icon={<SiReact />} title='React'/>
             </div>
 
-            <h2>Habilidades Adicionais</h2>
+            <h2>{t('additionalSkills')}</h2>
 
             <div className="additionalSkills">
                 <CardAdditionalSkill 

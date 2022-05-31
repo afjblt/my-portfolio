@@ -2,6 +2,12 @@
     "translation": {
         "about": "About me",
         "projects": "Projects",
-        "contact": "Contact"
+        "contact": "Contact",
+        "hi": "Hello, I am",
+        "infoHome": "Frontend developer, I mainly use technologies: REACT, JavaScript, HTML, CSS.",
+        "cv": "Download CV",
+        "apresentation": "Hello, my name is Fernando Filipe da Silva Costa, I'm 20 years old, I'm studying the 7th period of Computer Science at UNIP - Universidade Paulista. I've been programming for 2 years, and in this period I was able to acquire knowledge in HTML5, CSS, JS, React, among other tools, always trying to be more and more updated with the technologies in the market. I'm currently looking to deepen my knowledge in React, and I'm also looking for a job as a Jr.",
+        "xp": "Months of professional experience. Using React as the main tool on a daily basis. Even in this experience I was able to acquire good knowledge in Figma. Creating from scratch a prototype that was requested from the team during the course of the position.",
+        "additionalSkills": "Additional Abilities"
     }
 }
