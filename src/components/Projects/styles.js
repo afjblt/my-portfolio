@@ -73,4 +73,10 @@ export const ProjectsContainer = styled.section`
         }
     }
 
+    @media (max-width: 500px) {
+        h2 {
+            font-size: 2.5rem;
+        }
+    }
+
 `
