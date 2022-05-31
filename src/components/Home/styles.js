@@ -7,7 +7,7 @@ export const HomeContainer = styled.section`
     justify-content: space-around;
 
     .left {
-        margin-top: -3rem;
+        margin-top: 5rem;
 
         .hi {
             font-size: 3rem;
@@ -66,7 +66,7 @@ export const HomeContainer = styled.section`
     
 
     .right {
-        margin-top: 9rem;
+        margin-top: 15rem;
         z-index: -1;
         width: 35rem;
         background-image: url(${elipse});

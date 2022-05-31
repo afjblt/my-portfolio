@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-
 export const HeaderContainer = styled.header `
+    position: fixed;
     background: black;
     width: 100%;
     height: 8rem;
@@ -122,19 +122,19 @@ export const HeaderContainer = styled.header `
     @media (max-width: 700px) {
         ul {
             position: absolute;
-            top: 10vh;
-            right: 0;
+            top: 8vh;
+            left: -100%;
             width: 40vw;
             height: 92vh;
             background: rgba(0, 0, 0, 0.5);
             flex-direction: column;
             align-items: center;
             margin-left: 0;
-            transform: translateX(100%);
-            transition: transform .5s ease-in;
+            /* transform: translateX(100%); */
+            transition: .5s ease-in;
 
             li:first-child {
-                margin-top: 2.5rem;
+                margin-top: 3rem;
             }
 
             li {
@@ -143,7 +143,8 @@ export const HeaderContainer = styled.header `
         }
 
         ul.active {
-            transform: translateX(0);
+            left: 0;
+            position: fixed;
 
             li {
                 opacity: 1;

@@ -10,6 +10,7 @@ function Header() {
     function handleClick() {
         setIsOpen(!isOpen)
     }
+
     return ( 
         <HeaderContainer>
             <h1>Fernando Costa</h1>

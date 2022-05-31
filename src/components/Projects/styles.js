@@ -6,6 +6,7 @@ export const ProjectsContainer = styled.section`
     gap: 2rem;
 
     h2 {
+        padding-top: 10rem;
         font-size: 3.2rem;
         color: #ffbb33;
         font-weight: 600;

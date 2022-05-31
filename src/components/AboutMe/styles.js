@@ -2,7 +2,7 @@ import styled from 'styled-components'
 export const AboutMeContainer = styled.section`
 
     h2 {
-        padding: 4rem 12rem 0;
+        padding: 10rem 12rem 0;
         font-size: 3.2rem;
         color: #ffbb33;
         font-weight: 600;
