@@ -2,7 +2,7 @@ import { HiOutlineDownload } from 'react-icons/hi'
 import { AiFillEye } from 'react-icons/ai'
 import { useTranslation } from 'react-i18next';
 
-import perfil from '../../imgs/perfil.svg'
+import perfil from '../../imgs/perfil.png'
 
 import { HomeContainer } from "./styles";
 
@@ -28,7 +28,7 @@ function Home() {
                 width: '100%',
                 height: '10rem',
                 background: 'black',
-                marginTop: '-1rem',
+                marginTop: '-2rem',
                 zIndex: '1',
             }}></div>
         </>

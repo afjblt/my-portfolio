@@ -66,21 +66,34 @@ export const HomeContainer = styled.section`
     
 
     .right {
-        margin-top: 15rem;
+        margin-top: 10rem;
         z-index: -1;
         width: 35rem;
         background-image: url(${elipse});
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: 0rem 10rem;
+        background-position: 0rem 5rem;
 
         img {
             margin-left: 1rem;
-            width: 33rem;
+            width: 40rem;
+            height: 45rem;
         }
     }
 
-    @media (max-width: 930px) {
+    @media (max-width: 1100px) {
+        .right {
+            margin-right: 2rem;
+            width: 30rem;
+
+            img {
+                width: 35rem;
+                height: 40rem;
+            }
+        }
+    }
+
+    @media (max-width: 945px) {
         .left {
             margin-left: 2rem;
 
@@ -99,10 +112,25 @@ export const HomeContainer = styled.section`
 
         .right {
             margin-right: 2rem;
-            width: 33rem;
+            width: 30rem;
+            background-position: 0rem 4rem;
+
+
+            img {
+                width: 35rem;
+                height: 40rem;
+            }
+        }
+    }
+
+    @media (max-width: 910px) {
+        .right {
+            margin-right: 2rem;
+            width: 27.5rem;
 
             img {
                 width: 30rem;
+                height: 35rem;
             }
         }
     }
@@ -130,10 +158,11 @@ export const HomeContainer = styled.section`
 
         .right {
             margin-right: 4rem;
-            width: 27rem;
+            width: 23.5rem;
             
             img {
                 width: 25rem;
+                height: 30rem;
             }
         }
     }
@@ -162,10 +191,11 @@ export const HomeContainer = styled.section`
 
         .right {
             margin: 0;
-            width: 27rem;
+            width: 23.5rem;
             
             img {
                 width: 25rem;
+                height: 30rem;
             }
         }
     }
