@@ -8,6 +8,23 @@
         "cv": "Download CV",
         "apresentation": "Hello, my name is Fernando Filipe da Silva Costa, I'm 20 years old, I'm studying the 7th period of Computer Science at UNIP - Universidade Paulista. I've been programming for 2 years, and in this period I was able to acquire knowledge in HTML5, CSS, JS, React, among other tools, always trying to be more and more updated with the technologies in the market. I'm currently looking to deepen my knowledge in React, and I'm also looking for a job as a Jr.",
         "xp": "Months of professional experience. Using React as the main tool on a daily basis. Even in this experience I was able to acquire good knowledge in Figma. Creating from scratch a prototype that was requested from the team during the course of the position.",
-        "additionalSkills": "Additional Abilities"
+        "additionalSkills": "Additional Abilities",
+        "figma": "I already had in my professional experience, develop from scratch a prototype for a service that was requested for the team.",
+        "frontend": "I've been programming on the frontend for 3 years, professionally for 6 months. I fell in love with the area from the first time I came into contact with it in 2019.",
+        "styledComponent": "I use this lib both in my personal projects, as I have already used it in a project in my first opportunity as a Dev Frontend.",
+        "gitTitle": "VERSION CONTROL",
+        "git": "I use GIT for code versioning.",
+        "npm": "I understand package management using NPM.",
+        "mui": "It can be said that this lib was one of the last lessons I learned. And I just thought it was amazing how much this tool makes the job easier.",
+        "projectsIntro": "I worked on many projects in the course of my studies as a Web Developer, here are some of my working projects and their repositories.",
+        "searchCepTitle": "Zip code search",
+        "searchCepInfo": "Fetch the zip code through an API, and populate the data on the screen. Made in React.",
+        "toDoListInfo": "A to-do list made in React. The app's tasks are being consumed from an external API. Made in React.",
+        "devFinanceInfo": "Program for managing inputs and outputs of values. Made in JS.",
+        "aluracordInfo": "Aluracord is a chat developed in react in an event made by alura. Messages are stored in Supabase. Made in React.",
+        "coffeeInfo": "The front-end of an application with CRUD and Cart functionality. Made in JS.",
+        "crudInfo": "Simple CRUD system. Made in JS.",
+        "costInfo": "Program with CRUD for projects and services built in React.",
+        "contactMe": "Contact me, let's make it happen together!"
     }
 }

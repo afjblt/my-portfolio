@@ -12,8 +12,19 @@
         "figma": "Já tive em minha experiência de profissional, desenvolver do zero um protótipo para um serviço que foi solicitado para o time.",
         "frontend": "Programo na parte de frontend a 3 anos, profissionalmente a 6 meses. Me apaixonei pela área dês da primeira vez que entrei em contato com ela em 2019.",
         "styledComponent": "Uso essa lib tanto em meus projetos pessoais, como também já usei em um projeto na minha primeria oportunidade como Dev Frontend.",
+        "gitTitle": "VERSIONAMENTO DE CÓDIGO",
         "git": "Uso GIT para versionamento de código.",
         "npm": "Entendo de gerenciamento de pacotes usando NPM.",
-        "mui": "Pode-se dizer que essa lib foi um dos últimos aprendizados que obtive. E simplesmente achei incrível o quanto essa ferramenta facilita o trabaho."
+        "mui": "Pode-se dizer que essa lib foi um dos últimos aprendizados que obtive. E simplesmente achei incrível o quanto essa ferramenta facilita o trabaho.",
+        "projectsIntro": "Trabalhei em muitos projetos no decorrer dos meus estudos como um Desenvolvedor Web, aqui estão alguns dos meus projetos em funcionamento e seus repositórios.",
+        "searchCepTitle": "Buscador de CEP",
+        "searchCepInfo": "Busca o Cep através de uma API, e povoa os dados na tela. Feito em React.",
+        "toDoListInfo": "Uma lista de tarefas feita em React. As tarefas do app estão sento consumidas a partir de uma API externa. Feito em React.",
+        "devFinanceInfo": "Programa para gerenciamento de entradas e saídas de valores. Feito em JS.",
+        "aluracordInfo": "Aluracord é um chat desenvolvido em react em um evento feito pela alura. As mensagens são armzenadas no Supabase. Feito em React.",
+        "coffeeInfo": "O front-end de uma aplicação com funcionalidade de CRUD e Carrinho. Feito em JS.",
+        "crudInfo": "Sistema simples de CRUD. Feito em JS.",
+        "costInfo": "Programa com CRUD para projetos e serviços construído em React.",
+        "contactMe": "Entre em contato comigo, vamos fazer acontecer juntos!"
     }
 }

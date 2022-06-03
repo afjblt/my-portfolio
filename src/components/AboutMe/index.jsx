@@ -37,35 +37,35 @@ function AboutMe() {
                 <CardAdditionalSkill 
                     icon={<CgFigma />} 
                     title='FIGMA' 
-                    description='Já tive em minha experiência de profissional, desenvolver do zero um protótipo para um serviço que foi solicitado para o time.'
+                    description={t('figma')}
                 />
                 <CardAdditionalSkill 
                     className='color' 
                     icon={<FaLaptopCode />} 
                     title='FRONTENT DEVELOPMENT' 
-                    description='Programo na parte de frontend a 3 anos, profissionalmente a 6 meses. Me apaixonei pela área dês da primeira vez que entrei em contato com ela em 2019.'
+                    description={t('frontend')}
                 />
                 <CardAdditionalSkill 
                     icon={<SiStyledcomponents />} 
                     title='STYLED-COMPONENTS' 
-                    description='Uso essa lib tanto em meus projetos pessoais, como também já usei em um projeto na minha primeria oportunidade como Dev Frontend.'
+                    description={t('styledComponent')}
                 />
                 <CardAdditionalSkill 
                     className='color'
                     icon={<BiGitCompare />} 
-                    title='VERSIONAMENTO DE CÓDIGO' 
-                    description='Uso GIT para versionamento de código.'
+                    title={t('gitTitle')}
+                    description={t('git')}
                 />
                 <CardAdditionalSkill 
                     icon={<ImNpm />} 
                     title='NPM' 
-                    description='Entendo de gerenciamento de pacotes usando NPM.'
+                    description={t('npm')}
                 />
                 <CardAdditionalSkill 
                     className='color'
                     icon={<SiMaterialui />} 
                     title='MUI REACT' 
-                    description='Pode-se dizer que essa lib foi um dos últimos aprendizados que obtive. E simplesmente achei incrível o quanto essa ferramenta facilita o trabaho.'
+                    description={t('mui')}
                 />
             </div>
 

@@ -1,13 +1,17 @@
 import { ContactContainer } from "./styles";
+import { useTranslation } from 'react-i18next';
+
 
 import { IoLogoWhatsapp, IoLogoLinkedin } from 'react-icons/io'
 
 function Contact() {
+    const { t } = useTranslation()
+
     return ( 
         <ContactContainer id="contact">
-            <h2>Contato</h2>
+            <h2>{t('contact')}</h2>
 
-            <p>Entre em contato comigo, vamos fazer acontecer juntos!</p>
+            <p>{t('contactMe')}</p>
 
             <span>Email: fernandofsilvacosta@gmail.com</span>
 
