@@ -16,7 +16,7 @@ function Home() {
                     <span>Fernando F. S. Costa</span>
                     <p className='info'>{t('infoHome')}</p>
                     <div className="buttons">
-                        <a href='https://drive.google.com/file/d/1cr0eHm0uTNp3Q1lqgWGQFmg-osshVaN7/view?usp=sharing' target='_blank' rel="noreferrer">{t('cv')} <HiOutlineDownload /></a>
+                        <a href='https://drive.google.com/file/d/1q68xCNeDnIOohI-K9tAYQ3zLllH95R29/view?usp=sharing' target='_blank' rel="noreferrer">{t('cv')} <HiOutlineDownload /></a>
                         <a href='#projects'>{t('projects')} <AiFillEye /></a>
                     </div>
                 </div>
