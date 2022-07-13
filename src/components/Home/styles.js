@@ -66,18 +66,17 @@ export const HomeContainer = styled.section`
     
 
     .right {
-        margin-top: 10rem;
+        margin-top: 18rem;
         z-index: -1;
-        width: 35rem;
+        width: 40rem;
         background-image: url(${elipse});
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: 0rem 5rem;
+        background-position: 0rem 7rem;
 
         img {
-            margin-left: 1rem;
-            width: 40rem;
-            height: 45rem;
+            margin-left: 5rem;
+            width: 32rem;
         }
     }
 
@@ -87,8 +86,8 @@ export const HomeContainer = styled.section`
             width: 30rem;
 
             img {
-                width: 35rem;
-                height: 40rem;
+                width: 30rem;
+                margin-left: 2rem;
             }
         }
     }
@@ -112,13 +111,11 @@ export const HomeContainer = styled.section`
 
         .right {
             margin-right: 2rem;
-            width: 30rem;
-            background-position: 0rem 4rem;
+            background-position: 0rem 8rem;
 
 
             img {
-                width: 35rem;
-                height: 40rem;
+                width: 30rem;
             }
         }
     }
@@ -126,11 +123,9 @@ export const HomeContainer = styled.section`
     @media (max-width: 910px) {
         .right {
             margin-right: 2rem;
-            width: 27.5rem;
 
             img {
-                width: 30rem;
-                height: 35rem;
+                width: 28rem;
             }
         }
     }
@@ -158,11 +153,12 @@ export const HomeContainer = styled.section`
 
         .right {
             margin-right: 4rem;
-            width: 23.5rem;
+            width: 24rem;
+            background-position: 0rem 6rem;
             
             img {
-                width: 25rem;
-                height: 30rem;
+                width: 23rem;
+                margin-left: 1rem;
             }
         }
     }
@@ -195,7 +191,6 @@ export const HomeContainer = styled.section`
             
             img {
                 width: 25rem;
-                height: 30rem;
             }
         }
     }

@@ -2,7 +2,7 @@ import { HiOutlineDownload } from 'react-icons/hi'
 import { AiFillEye } from 'react-icons/ai'
 import { useTranslation } from 'react-i18next';
 
-import perfil from '../../imgs/perfil.png'
+import perfil from '../../imgs/euSite.png'
 
 import { HomeContainer } from "./styles";
 
