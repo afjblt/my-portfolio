@@ -38,7 +38,7 @@ function Projects() {
 
             <div className="carousel" ref={carousel}>
 
-                <CardCarousel src={netflixImage} title='Clone Netflix' description={t('searchCepInfo')} vercel='https://clone-netflix-three-iota.vercel.app/' github='https://github.com/afjblt/clone-netflix'/>
+                <CardCarousel src={netflixImage} title='Clone Netflix' description={t('netflixInfo')} vercel='https://clone-netflix-three-iota.vercel.app/' github='https://github.com/afjblt/clone-netflix'/>
                 
                 <CardCarousel src={searchCepImage} title={t('searchCepTitle')} description={t('searchCepInfo')} vercel='https://buscador-de-cep-weld.vercel.app/' github='https://github.com/afjblt/buscadorDeCep.git'/>
 
