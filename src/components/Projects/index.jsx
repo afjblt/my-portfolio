@@ -12,6 +12,7 @@ import aluracordImage from '../../imgs/aluracordImage.png'
 import devfinanceImage from '../../imgs/devfinanceImage.png'
 import coffeeImage from '../../imgs/coffeeImage.png'
 import CRUDImage from '../../imgs/CRUDImage.png'
+import netflixImage from '../../imgs/netflixImage'
 
 function Projects() {
     const { t } = useTranslation()
@@ -37,6 +38,8 @@ function Projects() {
 
             <div className="carousel" ref={carousel}>
 
+                <CardCarousel src={netflixImage} title='Clone Netflix' description={t('searchCepInfo')} vercel='https://clone-netflix-three-iota.vercel.app/' github='https://github.com/afjblt/clone-netflix'/>
+                
                 <CardCarousel src={searchCepImage} title={t('searchCepTitle')} description={t('searchCepInfo')} vercel='https://buscador-de-cep-weld.vercel.app/' github='https://github.com/afjblt/buscadorDeCep.git'/>
 
                 <CardCarousel src={todolistImage} title='To Do List' description={t('toDoListInfo')} vercel='https://lista-to-do-react.vercel.app/' github='https://github.com/afjblt/lista-to-do-react.git'/>

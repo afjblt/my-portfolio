@@ -17,6 +17,7 @@
         "npm": "Entendo de gerenciamento de pacotes usando NPM.",
         "mui": "Pode-se dizer que essa lib foi um dos últimos aprendizados que obtive. E simplesmente achei incrível o quanto essa ferramenta facilita o trabaho.",
         "projectsIntro": "Trabalhei em muitos projetos no decorrer dos meus estudos como um Desenvolvedor Web, aqui estão alguns dos meus projetos em funcionamento e seus repositórios.",
+        "netflixInfo": "Clone da netflix feito em react, utilizando a API do Themoviedb.org",
         "searchCepTitle": "Buscador de CEP",
         "searchCepInfo": "Busca o Cep através de uma API, e povoa os dados na tela. Feito em React.",
         "toDoListInfo": "Uma lista de tarefas feita em React. As tarefas do app estão sento consumidas a partir de uma API externa. Feito em React.",
