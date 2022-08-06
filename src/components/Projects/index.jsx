@@ -12,7 +12,7 @@ import aluracordImage from '../../imgs/aluracordImage.png'
 import devfinanceImage from '../../imgs/devfinanceImage.png'
 import coffeeImage from '../../imgs/coffeeImage.png'
 import CRUDImage from '../../imgs/CRUDImage.png'
-import netflixImage from '../../imgs/netflixImage'
+import netflixImage from '../../imgs/netflixImage.png'
 
 function Projects() {
     const { t } = useTranslation()
