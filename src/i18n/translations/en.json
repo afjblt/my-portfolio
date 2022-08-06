@@ -17,6 +17,7 @@
         "npm": "I understand package management using NPM.",
         "mui": "It can be said that this lib was one of the last lessons I learned. And I just thought it was amazing how much this tool makes the job easier.",
         "projectsIntro": "I worked on many projects in the course of my studies as a Web Developer, here are some of my working projects and their repositories.",
+        "netflixInfo": "Netflix clone made in react, using Themoviedb.org API",
         "searchCepTitle": "Zip code search",
         "searchCepInfo": "Fetch the zip code through an API, and populate the data on the screen. Made in React.",
         "toDoListInfo": "A to-do list made in React. The app's tasks are being consumed from an external API. Made in React.",
