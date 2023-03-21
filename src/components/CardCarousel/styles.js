@@ -4,6 +4,7 @@ export const CardCarouselContainer = styled.div`
     width: 34.5rem;
     border-radius: .8rem;
     flex: none;
+    height: auto;
 
     .image {
         img {
@@ -12,7 +13,6 @@ export const CardCarouselContainer = styled.div`
             width: 100%;
             height: 100%;
             object-fit: cover;
-            opacity: .6;
         }
     }
 
@@ -30,6 +30,8 @@ export const CardCarouselContainer = styled.div`
             font-weight: 500;
             text-align: justify;
             height: 14rem;
+            
+            
         }
 
         .buttons {

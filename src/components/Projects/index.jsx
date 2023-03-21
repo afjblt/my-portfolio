@@ -13,6 +13,8 @@ import devfinanceImage from '../../imgs/devfinanceImage.png'
 import coffeeImage from '../../imgs/coffeeImage.png'
 import CRUDImage from '../../imgs/CRUDImage.png'
 import netflixImage from '../../imgs/netflixImage.png'
+import cardDetailsImage from '../../imgs/interactive-card-details.png'
+import timeTrackingImage from '../../imgs/time-tracking.png'
 
 function Projects() {
     const { t } = useTranslation()
@@ -39,10 +41,14 @@ function Projects() {
             <div className="carousel" ref={carousel}>
 
                 <CardCarousel src={netflixImage} title='Clone Netflix' description={t('netflixInfo')} vercel='https://clone-netflix-three-iota.vercel.app/' github='https://github.com/afjblt/clone-netflix'/>
+
+                <CardCarousel src={cardDetailsImage} title='Interactive Card Details' description={t('cardDetailInfo')} vercel='https://interactive-card-details-form-p9484qpoa-afjblt.vercel.app/' github='https://github.com/afjblt/interactive-card-details-form'/>
                 
                 <CardCarousel src={searchCepImage} title={t('searchCepTitle')} description={t('searchCepInfo')} vercel='https://buscador-de-cep-weld.vercel.app/' github='https://github.com/afjblt/buscadorDeCep.git'/>
 
                 <CardCarousel src={todolistImage} title='To Do List' description={t('toDoListInfo')} vercel='https://lista-to-do-react.vercel.app/' github='https://github.com/afjblt/lista-to-do-react.git'/>
+
+                <CardCarousel src={timeTrackingImage} title='Time Tracking' description={t('timeTrackingInfo')} vercel='https://time-tracking-dashboard-six-eta.vercel.app/' github='https://github.com/afjblt/time-tracking-dashboard'/>
 
                 <CardCarousel src={devfinanceImage} title='Dev Finance' description={t('devFinanceInfo')} vercel='https://dev-finance-ten.vercel.app/' github='https://github.com/afjblt/Dev.Finance.git' />
 
